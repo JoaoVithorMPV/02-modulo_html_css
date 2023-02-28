@@ -1,0 +1,608 @@
+<<02-modulo_html_css>> <<Youtube: Curso em Vídeo>>
+
+✦Índice das Informações✦
+▷
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Psicologia das cores
+
+01- Significados das cores, no que elas são usadas e aonde devem ser evitadas
+[https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/13%20-%20Cores.pdf]
+
+
+
+
+
+
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Harmonia de cores
+
+02- Cores primárias
+[São elas o amarelo, vermelho e azul]
+
+03- Cores secindárias 
+[São elas o verde, laranja e violeta]
+
+04- Cores terciárias
+[Elas são aquelas que estão entre um tom de cor primária e secundária e por isso recebem um
+nome composto, formado pelo os dois nomes das cores primárias e secundárias;
+São elas:
+amarelo-esverdiado
+amarelo-alaranjado
+vermelho-alaranjado
+vermelho-arroxeado
+azul-arroxeado
+azul-esverdiado
+Obs: O nome da cor primária sempre antevem o nome da cor secundária]
+Obs: As cores terciárias também são conhecidas como as cores pasteis que vemos no dia a dia
+]
+
+05- Cores Frias 
+[São elas:
+amarelo-esverdiado
+verde 
+azul-esverdiado
+azul
+azul-arroxeado
+violeta]
+
+06- Cores quentes 
+[São elas 
+amarelo
+amarelo-alaranjado
+laranja
+vermelho-alaranjado
+vermelho
+vermelho-arroxeado]
+
+07- Cores complementares (2)
+[São aquelas que são opostas uma da outra, ex: violeta e amarelo, azul e laranja...
+Obs: para uma melhor visualização olhe circulo cromático:
+https://www.tuacasa.com.br/wp-content/uploads/2022/09/circulo-cromatico-100-730x449.png]
+
+08- Cores análogas (3)
+[As cores análogas são aquelas encontradas em uma sequência no círculo cromático e, por isso, 
+dão a sensação de que são uma continuidade uma da outra
+Obs: para uma melhor visualização olhe circulo cromático:
+https://www.tuacasa.com.br/wp-content/uploads/2022/09/circulo-cromatico-100-730x449.png]
+
+09- Cores análogas e uma complementar (4)
+[Se baseia em você selecionar uma cor primária e suas 2 cores derivadas que são as responsá-
+veis por criar as cores terciária, junto de uma cor complementar que seria a cor do lado 
+oposto do circulo cromático; Isso gerará uma ótima paleta de 4 cores
+Ex: 
+Cor primária: laranja 
+Cores derivadas: amarelo-alaranajdo e vermelho-alaranjado
+Cor complementar: Azul
+Obs: para uma melhor visualização olhe circulo cromático:
+https://www.tuacasa.com.br/wp-content/uploads/2022/09/circulo-cromatico-100-730x449.png]
+
+10- Um site geralmente possue de 3 á 4 cores em sua paleta de cores (Sem considerar o branco 
+é claro)
+
+11- Cores Análogas Relacioandas (3)
+[Para isso você vai pegar uma cor primária junto de uma de suas cores terciárias e por fim
+selecionar a segunda cor terciária derivada da cor secundária
+EX: 
+amarelo
+amarelo-alaranjado 
+vermelho-alaranjado]
+
+12- Cores intercaladas (3)
+[Para forma-las basta você pegar o circulo cromático escolher um de suas cores, depois você irá 
+adiconar mais outras duas cores, para isso basta pular uma delas e escolher a próxima
+Ex:
+amarelo
+PULA amarelo-alaranjado
+laranja
+Pula vermelho-alaranjado
+vermelho]
+
+13- Cores triáticas (3)
+[Como diz o nome você irá pular três cores daquela que foi inicialmente escolhida
+Ex:
+amarelo
+pula amarelo-alaranjado
+pula laranja
+pula vermelho-alaranjado
+vermelho]
+
+14- Cores em quadrado (4)
+[Você ira pular duas cores daquela que foi inicialmente escolhida
+Ex:
+amarelo
+pula amarelo-alaranjado
+pula laranja
+vermelho-alaranjado
+pula vermelho
+pula vermelho-aroxeado
+violeta
+pula azul aroxeada
+pula azul
+azul-esverdiado]
+
+15- Cores tetrádicas (4)
+[Basta você selecioanr 2 cores e depois adicionar outras duas cores e elas serão as cores comple-
+mentares delas (cores que estão na direção oposta uma da outra)
+Ex:
+laranja 
+vermelho
+complementar de laranja: azul
+complementar de vermelho: verde]
+
+16- Monocromia (1)
+[Para isso basta você selecionar uma única cor e depois disso modificar sua saturação e brilho]
+
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Como criar degradê com CSS
+
+17- Como criar degradê
+[Para isso vocÊ deverá utilizar a atributo "background-image" dentro da tag que você deseja criar 
+o defradê, ex de tags que você pode usar: div, section, main, header...
+depois deve usar o propriedade "linear-gradient()" dentro dos colchetes você irá informar a dire-
+ção do degrande escrevendo por extenso ou com ângulo, Ex: to right e to left ou 90deg e -90deg...
+e po fim informar as cores (você também pode determinar a porcentagem que ela vai cobrir, ex:
+se você usar duas cores, naturalmente cada irá oculpar 50% da tela, mas você alterar isso infor-
+mando uma porcentagem de corX 10% e CorY90%
+Ex: prático:
+body {
+background-image: linear-gradiet(to right, azul 30%, roxo, vermelho);
+}]
+
+18- box-shadow / text-shadow...
+[Ex prático:
+
+text-shadow: 2px 2px 40px #5d685d;
+
+box-shadow: 5px 5px 10px #a18276;
+
+Como você pode ver esse atributo possue 4 variáveis, sendo eles:
+1° Sentido horizontal, ela determinará o quanto a sombra irá se posicionar a direita ou esquerda do
+elemento
+
+2° Sentido vertical, ela determinará o quanto a sombra irá se posicionar para cima ou para baixo do
+elemento
+
+3° Irá determinar o quão desfolcado a sobra ficará, quanto masior número maior maior o desfoque
+
+4° É a identificação da cor da sombra 
+]
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Anatomia do tipo
+
+19- Altura-x 
+[É a altura das letras minúsculas de uma família tipográfica. A observação da altura-x é importante 
+para solucionar problemas de legibilidade tipográfica no estágio projetual de um família tipográfica]
+
+20- Altura das letra maiúsculas 
+[Esta altura, indicada em pontos, é a medida da distância da linha base até ao topo de um 
+caractere com o M, T, U, W, X, Z, etc.]
+
+21- Ascendente
+[A parte das letras minúsculas que se prolonga acima da altura-x. Ascendentes têm as 
+letras d, b, d, f, h, k, l, t. A linha dos ascendentes (que define a altura máxi­ma dos ascendentes)
+ pode ser um pouco mais baixa que a linha de altura das maiúsculas; este recurso micro-tipográfico 
+melhora a  legibilidade da fonte e tem sido usado por numerosos typeface designers]
+
+22- Descendente
+[A parte das letras minúsculas  e maiúsculas que se prolonga abaixo da altura-x]
+
+23 - O corpo
+[É aquilo que engloba todas as variáveis de uma tipografica]
+
+24- Serifas
+[As serifas são os pequenos traços e prolongamentos que ocorrem no fim das hastes das letras;
+ela geralmente facilita a leitura no caso de de algo escrito no papel(Já para texto na web ela não 
+é tão recomendada)]
+
+25- arco
+Componente de uma letra minúscula, formada por uma linha em forma de bengala, que nasce na haste 
+principal.
+
+26- barriga ou pança
+Linha curva de uma letra minúscula ou maiúscula, fechada, ligada à haste vertical principal em dois 
+locais. P B p b D d
+
+27- braço
+Traço horizontal ou oblíquo ligado apenas por uma das extremidades à haste vertical principal de 
+uma letra maiúscula ou minúscula. Aos dois braços do T também se chama travessão.
+
+28- cauda, perna
+(tail, inglês) Apêndice do corpo de algumas letras (g, j, J, K, Q, R) que fica abaixo da linha de base. Nas letras K e R também pode ser chamado «perna».
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Tamanho de fonte e suas medidas
+
+29- Unidades de medidas Oficiais: px e em
+[
+px: Por definição padrão, um pixel é igual a um ponto no dispositivo citado (Ela é uma unidade de 
+medida absoluta, em outras palavras, ela não se altera com a proporção da tela)
+em: Ela é uma medida referencial em relação ao tamanho original da fonte. O tamanho padrão de uma 
+fonte é geralmente 16px, isso equivale a 1em. A partir daí, podemos configurar o tamanho de um 
+título, por exemplo 2em é o equivalente a 32px, caso o tamanho da fonte originalmente seja 16px
+]
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula:
+
+30- estilização do texto
+[
+As 4 principais propriedade para tal:
+
+font-style: Essa propriedade é usada para definir o estilo da fonte. Ela pode receber o valor normal,
+italic e oblique
+
+font-weight: especifica o peso ou a intensidade da fonte
+
+font-size: é usada para indicar o tamanho da letra(fonte)
+
+font-family: permite que se faça uma lista de prioridades de familias de fontes e/ou nomes 
+genéricos de famílias a serem especificados para um elemento selecionado 
+
+Existe uma forma de você utilizar todas essas propriedades de uma forma abreviada e ela é 
+asssim:
+
+font: italic bolder 3em 'Work Sans', sans-serif;
+
+A ordem dos valores que você deve definir é a seguinte:
+
+font-style -> font-weight -> font-size -> font-family
+]
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Usando fontes externas baixadas
+
+31- Como utilizar uma fonte que você realizou o download 
+[Para isso você usará o atributo "@font-face", junto das propriedades "font-family" e "src: url(''),
+dentro da url() você colocará o nome da font, 
+Ex:
+@font-face
+font-family: x;
+src: url('nome do arquivo da fonte');
+format()
+
+Tipos de format()
+-opentype (otf)
+- truetype (ttf) 
+-embedded-opentype
+-truetype-aat (Apple Advanced Typography)
+svg
+
+O nome do format será dado pelo final do nome do seu arquivo com fonte, ex: se o arquivo for
+.otf, você deverá colocar opentype no format, já caso seja .ttf, você deverá colocar truetype no 
+format
+]
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Alinhamento de textos com CSS
+
+32- propriedade text-align 
+[Ela é reposnsável por dizer onde seu texto será posicioando dentro do conteiner,
+para ficar no centro utilizamos o complemento: center
+para ficar na direita utilizamos o complemento: reight
+para ficar na esquerda utilizamos o complemento: left
+para ficar por igual utilizamos o complemento: justify
+Ex:
+h1{
+	text-align: center;
+}
+]
+
+33- propriedade text-ident
+[Ele é reponsável por gerar recuo/margem do início do texto
+Ex:
+p {
+	text-ident: 10px;
+}
+]
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Pseudo-classes/elementos em CSS
+
+34- pseudo-classe:houver
+[Pseudo-classe é usado junto de uma tag dentro de uma folha de estilo(vulgo css), 
+Ex:
+div:houver {
+	color: red;
+	background: black;
+}
+
+Com esa pseudo-classe podemos gerar um efeito aparição/invisibilidade, aqui um ex simples:
+
+div > p {
+	display: none;
+}
+
+div:hover > p {
+	display: block;
+	color: red;
+}
+
+div:hover {
+	color:green
+}
+
+<body>
+<h1>Olá mundo</h1>
+<p>Seja bem-vindo!</p>
+<div>
+Como você está?
+<p>Bem, obrigado!</p>
+</div>
+</body>
+]
+
+35- pseudo-classe:visited
+[O :visited é uma Pseudo-classe do CSS para indicar se o link em questão já foi visitado pelo 
+usuário]
+
+36- pseudo-classe:active
+[active – quando ativamos o elemento. Por exemplo, quando clicamos em um link e não soltamos o 
+botão do mouse]
+
+37- pseudo-elemento::after
+[ ::after cria um pseudo-elemento que é o último filho do elemento selecionado, em outras palavras
+adiciona algo a tag 
+Ex:
+a::after {
+content: '[link]';
+color: red;
+}
+Obs: para de fato escrever algo é preciso usar a propriedade "content" junto ao 
+pseudo-elemento::after
+]
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Modelos de caixas primeiros passos
+
+38- Box-level e inline-level 
+[A diferênça básica é que o browser acomoda os elementos de bloco um abaixo do outro e os inline à 
+esquerda um ao lado do outro
+Ex de tags Box:
+div
+h1, h2, h3
+p
+ul, ol
+table
+form
+fildset
+hr
+
+Ex de tags Inline:
+span
+a
+img
+td
+label
+input
+select
+textarea
+
+No CSS pode-se alterar o tipo do elemento, com a propriedade display, sendo possível utilizar os 
+esses três principais valores:
+block
+inline
+inline-block
+Ex:
+div {
+    display: inline;
+}
+span {
+    display: block;
+}
+]
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Modelos de caixas na prática
+
+39- Configuração automática do navegador 
+[O próprio navegador possui uma pré-configuração básica que será atribuida as tags para caso você
+não tenha atribuido valor nenhum para elas no CSS
+Ex:
+h1{
+display: block;
+font-size: 2em; 
+margin-block-start: 0.67em;
+margin-block-end: 0.67em;
+margin-inline-start: 0px;
+rgin-inline-end: 0px;
+font-weight: bold; }
+}
+
+Essas são as configurações básicas que o chrome atribui a tag h1
+]
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Sombra nas Caixas
+
+40- Como gerar sombras mais facilmente 
+[Para isso abra o Devtools e vá onde está posicionado a proipriedade "box-shadow" e na clicle nos
+soi quadradinhos sobrepostos, lá você poderá realizar alterações em tempo real]
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Navegando pelo projeto pronto
+
+41- Diferenças entre o site que eu criei com o original:
+[
+fonte 
+menu nav
+espaçamento entre as linhas 
+imagem da mina 
+borda do video não acompanha a caixa main 
+"quer apredender mais" não encosta no teto e nem na lateral
+simbolo da kista não ordenada
+]
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Variáveis em CSS
+
+42- O que root 
+[A pseudo-classe CSS :root se equipara à raiz de uma árvore, que por sua vez representa o documento;
+nele você pode pré-setar o conceito de variáveis dentro do CSS
+Ex:
+:root {
+--cor0: #c5ebd6;
+--cor1: #83e1ad;
+--cor2: #3ddc85;
+--cor3: #2fa866;
+--cor4: #1a5c37;
+--cor5: #063d1e;
+}
+
+Obs: é preciso usar o sinal de traço duas vezes antes de colocar o nome da variável
+]
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Melhorando o formato do conteúdo 
+
+43- quando usar o símbolo de maior que (>) e quando não usar 
+[Quando você utiliza ">" que dizer diretamente que é para receber as variações apenas aquelas tags 
+que estão dentro da anterior
+Ex: 
+<main>
+<p>
+fijhdfujksdhfsdiujkfhsdgkj
+fhsdjkghgfsdjkfsdghfsdhg
+fdslhjksdflhjkfsdlhjk
+</p>
+<article>
+<p>
+ljkdfghjdfjkfdjgkjd
+gfldjkhbfdgkj
+jklhfdghjfdkg
+</p>
+</article>
+</main>
+
+Caso você coloque assim na sua folha de estilo:
+main > p{
+	color: red
+}
+*Apenas a tag p que estiver diretamente em contato com a tag main vai receber esses valores 
+
+Caso você coloque assim na sua folha de estilo:
+main  p{
+	color: red
+}
+*Todos as tags p dentro de main irão receber este valor, incluindo as tags "netas"
+]
+
+44-Propriedade linear-height
+[A propriedade CSS line-height permite controlar o espaçamento entre as linhas de um texto]
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula:Rodapé, conteúdo, periferico e links
+
+45- Propriedade list-style-position
+[list-style-position : outside: marcador fora do alinhamento do texto. inside: marcador alinhado 
+com texto.]
+
+46- Propriedade Columns
+[Com esta propriedade você pode selecionar a quantidae de colunas que deseja para dentro de 
+container
+Ex:
+<ul>
+            <li>1.5 - <abbr title="Bolo de copo">Cupcake</abbr></li>
+            <li>1.6 - <abbr title="Rosquinha">Donut</abbr></li>
+            <li>3.0 - <abbr title="Bomba">Eclair</abbr></li>
+            <li>2.2 - <abbr title="Iogurte Congelado">Froyo</abbr></li>
+            <li>2.3 - <abbr title="Biscoite de Gengibre">Gingerbread</abbr></li>
+            <li>3.0 - <abbr title="Favo de Mel">Honeycomb</abbr></li>
+            <li>
+              4.0 - <abbr title="Sanduíche de Sorvete">Ice Cream Sandwich</abbr>
+            </li>
+            <li>4.1 - <abbr title="Jujuba">Jelly Bean</abbr></li>
+            <li>4.4 - <abbr title="KitKat">KitKat</abbr></li>
+            <li>5.0 - <abbr title="Pirulito">Lolipop</abbr></li>
+            <li>6.0 - <abbr title="Marshmallow">Marshmallow</abbr></li>
+            <li>7.0 - <abbr title="Torrone">Nougat</abbr></li>
+            <li>8.0 - <abbr title="Oreo">Oreo</abbr></li>
+            <li>9.0 - <abbr title="Torta ">Pie</abbr></li>
+          </ul>
+
+*folha de estilo
+aside ul {
+  list-style-position: inside;
+  columns: 2;
+}
+]
+
+47- Propriedade: list-style-type:
+[Serve apra você substituir o tipo  de simbologia de algo 
+Ex:
+aside ul {
+  list-style-type: "\2714\00A0";
+  list-style-position: inside;
+  columns: 2;
+}
+*É necessario que você utilize a símbolo de barra ao contrário para que funcione (\);
+já o comando 00A0, serve para criar um espaçamento entre os elementos]
+
+
+
+
+
+
+
